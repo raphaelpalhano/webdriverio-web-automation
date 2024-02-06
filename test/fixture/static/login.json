@@ -1,0 +1,10 @@
+{
+   "valid": {
+      "username": "rand@gmail.com",
+      "password": "raf21"
+   },
+   "invalid": {
+      "username": "randomuser",
+      "password": "secret_sauce"
+   }
+}

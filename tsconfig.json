@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "target": "ES2017",
+        "resolvePackageJsonExports": false,
+        "rootDir": ".",
+        "incremental": true,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "strictBindCallApply": false,
+        "forceConsistentCasingInFileNames": true,
+        //"noFallthroughCasesInSwitch": false,
+        "lib": [
+          "es5",
+          "es6",
+          "dom"
+        ],
+        "strict": true,
+        "allowImportingTsExtensions": true,
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "strictNullChecks": false,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "removeComments": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+            "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
+        ]
+    },
+
+    "include": [
+        "test/**/*.ts",
+        "./**/*.ts",
+    ],
+      "exclude": [
+        "node_modules"
+      ]
+}
